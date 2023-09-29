@@ -3,7 +3,7 @@ pipeline{
         dockerUserName="alirob55"
         credentialsIdGCP = "exec-cohort-8"
         namespace = "lbg-3"
-        // e.g. lbg-3 for learner1, lbg-2 for learner2
+        // e.g. lbg-3 for   learner1, lbg-2 for learner2
         projectId= "exec-cohort-8"
         
         imageName = "vatcalc"
